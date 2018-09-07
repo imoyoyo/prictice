@@ -1,0 +1,7 @@
+body{
+    text-align: center;
+}
+#choices li{
+    text-align: left;
+    font-size: 30px;
+}
