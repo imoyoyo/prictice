@@ -7,12 +7,6 @@ table{
     margin: auto;
     font-size: 16pt;
 }
-
-td{
-    border-bottom: 1px solid green;
-}
-
-th{
-    border-bottom: 2px solid blue;
-    font-weight: 900;
+tr:nth-child(odd){
+    background-color: #eee;
 }
