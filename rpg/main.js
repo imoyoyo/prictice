@@ -13,7 +13,7 @@ $(document).ready(function(){
     imgMountain=new Image();
     imgMountain.src="rpg/images/material.png";
     imgEnemy=new Image();
-    imgEnemy.src="rpg/images/Enemy.png";
+    imgEnemy.src="rpg/images/enemy.png";
     imgMountain.onload=function(){
         imgEnemy.onload=function(){
             for(var x in mapArray)
