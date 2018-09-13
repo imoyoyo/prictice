@@ -1,5 +1,5 @@
 $(document).ready(function(){ 
-    $("#courseTable").append("<tr><th>順序</th><th>時間</th><th>題目</th></tr>");   
+    $("#courseTable").append("<tr><th>順番</th><th>聞く時間</th><th>曲</th></tr>");   
     var topicCount = topic.length;
     
     var secondUnit = 1000;

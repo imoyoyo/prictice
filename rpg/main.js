@@ -81,16 +81,16 @@ $(document).keydown(function(event){
     switch(mapArray[targetBlock])
         {
             case undefined:
-                $("#talkBox").text("邊界");
+                $("#talkBox").text("境界");
             break;
             case 1:
-                $("#talkBox").text("有山");
+                $("#talkBox").text("山");
             break;
             case 2:
-                $("#talkBox").text("抵達終點");
+                $("#talkBox").text("ゴールに到着！");
             break;
             case 3:
-                $("#talkBox").text("嗨~");
+                $("#talkBox").text("おはよう～");
             break;
         }
 });
